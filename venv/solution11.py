@@ -1,0 +1,5 @@
+rub = int(input())
+cop = int(input())
+num = int(input())
+cost = (((rub * 100) + cop) * num)
+print(cost // 100, cost % 100, sep=' ')
